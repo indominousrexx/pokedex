@@ -280,7 +280,6 @@ body {
 
 .list-item {
   align-items: center;
-
   color: white;
   cursor: pointer;
   display: flex;
@@ -292,13 +291,14 @@ body {
 }
 
 .list-item:hover {
-  background: #00ccff;
+  background: #41cff3;
   color: black;
   transform: scale(1.1);
   cursor: pointer;
   transition: transform .3s ease;
   border-radius: 5px;
   outline: 2px solid black;
+  box-shadow: 0 0 2pt 2pt black;
 }
 
 .list-item:active {
@@ -331,6 +331,9 @@ body {
 .left-button:hover,
 .right-button:hover {
   background: white;
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: transform .3s ease;
 }
 
 .left-button:active,
