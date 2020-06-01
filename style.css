@@ -8,7 +8,7 @@ body {
   display: flex;
   font-family: sans-serif;
   justify-content: center;
-  background-image: url('poke.jpg');
+  background-image: url('poke (3).jpg');
   background-position: center;
   height: 100vh;
   width: 100%;
@@ -23,15 +23,15 @@ body {
   height: 27rem;
   margin: 3.12rem;
   width: 60rem;
-  padding-left: 16rem;
-  padding-right: 3rem;
+  padding-left: 17rem;
+  padding-right: 2rem;
 }
 
 .left-container,
 .right-container {
   border: 3px solid black;
   width: 50%;
-  box-shadow: 1px 1px 5px 5px rgba(0,0,0,.4);
+  box-shadow: 1px 1px 6px 6px rgba(0,0,0,.7);
   border-radius: 1rem;
 }
 
@@ -40,7 +40,7 @@ body {
 }
 
 .left-container {
-  background: rgb(255, 60, 0);
+ background: linear-gradient(to right, rgb(228, 75, 5), rgb(228, 111, 2), rgb(255, 145, 0), rgb(228, 111, 2), rgb(228, 75, 5));
   height: 100%;
   width: calc(50% + 3rem);
   
@@ -246,7 +246,7 @@ body {
 }
 
 .left-container__hinge {
-  background: linear-gradient(to right, rgb(238, 61, 15), rgb(255, 123, 0), rgb(223, 111, 20), rgb(238, 60, 15));
+  background: linear-gradient(to right, rgb(175, 37, 2), rgb(224, 110, 3), rgb(214, 97, 2), rgb(187, 40, 4));
   height: 4.5rem;
   width: 100%;
 }
@@ -260,7 +260,7 @@ body {
 }
 
 .right-container {
-  background: rgb(255, 60, 0);
+  background: linear-gradient(to right, rgb(206, 68, 4), rgb(228, 111, 2), rgb(255, 145, 0), rgb(228, 111, 2), rgb(201, 68, 6));
   height: calc(100% - 1.9rem);
   padding: 1.3rem;
   width: calc(50% - 2.7rem);
@@ -275,7 +275,7 @@ body {
 }
 
 .right-container__screen {
-  background: rgb(0, 130, 236);
+  background: linear-gradient(to right, rgb(23, 20, 165), rgb(28, 79, 219), rgb(17, 129, 221), rgb(29, 80, 221), rgb(23, 20, 165));
   border-radius: 0.9rem;
   display: flex;
   flex-direction: column;
