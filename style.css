@@ -9,20 +9,22 @@ body {
   font-family: sans-serif;
   justify-content: center;
   background-image: url('poke.jpg');
+  background-position: center;
   height: 100vh;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  overflow-x: scroll;
-  overflow-y: hidden;
 }
 
 .pokedex {
   align-items: flex-end;
   display: flex;
-  height: 500px;
-  margin: 50px;
-  width: 800px;
+  padding-top: 0.1rem;
+  height: 27rem;
+  margin: 3.12rem;
+  width: 60rem;
+  padding-left: 16rem;
+  padding-right: 3rem;
 }
 
 .left-container,
@@ -40,42 +42,43 @@ body {
 .left-container {
   background: rgb(255, 60, 0);
   height: 100%;
-  width: calc(50% + 50px);
+  width: calc(50% + 3rem);
   
 }
 
 
 .left-container__main-section-container {
   display: flex;
-  height: calc(100% - 50px);
+  height: calc(100% - 3rem);
 }
 
 .left-container__main-section {
   height: 100%;
-  padding: 25px;
-  width: 500px;
+  padding: 1.5rem;
+  width: 28.25rem;
 }
 
 .main-section__white {
   background: rgb(194, 192, 192);
   border: 3px solid black;
   box-shadow: inset 0 0 3px 3px rgba(0,0,0,.3);
-  height: 325px;
+  height: 19rem;
+  border-radius: 0.5rem;
 }
 
 .main-section__black {
   background: black;
   height: calc(100% - 50px);
-  margin: 25px;
-  padding: 10px;
-  width: calc(100% - 50px);
-  border-radius: 5px;
+  margin: 1.5rem;
+  padding: 0.6rem;
+  width: calc(100% - 3rem);
+  border-radius: 0.4rem;
 }
 
 .main-screen {
-  border-radius: 15px;
+  border-radius: 0.7rem;
   height: 100%;
-  padding: 15px;
+  padding: 0.65rem;
 }
 
 .screen__header {
@@ -86,13 +89,13 @@ body {
 
 .poke-name {
   color: white;
-  font-size: 25px;
+  font-size: 1.6rem;
   font-weight: bold;
 }
 
 .poke-id {
   color: rgba(0,0,0,.5);
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 
 .screen__image {
@@ -102,39 +105,39 @@ body {
 
 .poke-front-image,
 .poke-back-image {
-  height: 96px;
-  width: 96px;
+  height: 6.3rem;
+  width: 6.4rem;
 }
 
 .screen__description {
   display: flex;
-  height: 100px;
+  height: 4.9rem;
   justify-content: space-around;
 }
 
 .screen__stats {
   background: rgba(0,0,0,.3);
-  border-radius: 5px;
+  border-radius: 0.25rem;
   color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: space-between;
-  padding: 20px 15px;
+  padding: 1.1rem 0.8rem;
 }
 
 .stats__types {
   height: 100%;
-  padding: 5px;
+  padding: 0.25rem;
 }
 
 .poke-type-one,
 .poke-type-two {
   background: rgba(255,255,255,.3);
-  border-radius: 25px;
+  border-radius: 1.3rem;
   display: block;
-  margin-bottom: 10px;
-  padding: 10px;
+  margin-bottom: 0.55rem;
+  padding: 0.5rem;
   text-align: center;
 }
 
@@ -142,7 +145,7 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-around;
-  margin: 10px 25px 0;
+  margin: 0.55rem 1.1rem 0;
 }
 
 .controllers__d-pad {
@@ -154,8 +157,8 @@ body {
 .d-pad__cell {
   background: black;
   box-shadow: 0 0 2px 2px rgba(0,0,0, .3);
-  height: 25px;
-  width: 25px;
+  height: 1.3rem;
+  width: 1.3rem;
 }
 
 .d-pad__cell.top {
@@ -202,7 +205,7 @@ body {
 .controllers__buttons {
   display: flex;
   justify-content: space-around;
-  width: 100px;
+  width: 5.2rem;
 }
 
 .buttons__button {
@@ -213,9 +216,9 @@ body {
   box-shadow: 0 0 2px 2px rgba(0,0,0, .3);
   color: rgba(255,255,255,.75);
   display: flex;
-  height: 35px;
+  height: 2rem;
   justify-content: center;
-  width: 35px;
+  width: 2rem;
 }
 
 .buttons__button:hover {
@@ -233,18 +236,18 @@ body {
  }
 
 
-.left-container__right {
+ .left-container__right {
   border-left: 3px solid black;
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: space-between;
-  width: 50px;
+  width: 3rem;
 }
 
 .left-container__hinge {
   background: linear-gradient(to right, rgb(238, 61, 15), rgb(255, 123, 0), rgb(223, 111, 20), rgb(238, 60, 15));
-  height: 75px;
+  height: 4.5rem;
   width: 100%;
 }
 
@@ -258,27 +261,27 @@ body {
 
 .right-container {
   background: rgb(255, 60, 0);
-  height: calc(100% - 50px);
-  padding: 25px;
-  width: calc(50% - 50px);
+  height: calc(100% - 1.9rem);
+  padding: 1.3rem;
+  width: calc(50% - 2.7rem);
 }
 
 .right-container__black {
   background: black;
   box-shadow: 0 0 2px 2px rgba(0,0,0,.3);
-  height: 300px;
-  padding: 10px;
-  border-radius: 5px;
+  height: 16.1rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
 }
 
 .right-container__screen {
   background: rgb(0, 130, 236);
-  border-radius: 15px;
+  border-radius: 0.9rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   height: 100%;
-  padding: 15px 15px 0;
+  padding: 0.9rem 0.9rem 0;
 }
 
 .list-item {
@@ -286,15 +289,16 @@ body {
   color: white;
   cursor: pointer;
   display: flex;
-  font-size: 12px;
-  height: 25px;
+  font-size: 0.75rem;
+  height: 1.3rem;
   overflow-x: hidden;
-  padding-left: 5px;
-  width: 50%;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  width: 53%;
 }
 
 .list-item:hover {
-  background: #41cff3;
+  background: #85e0f7;
   color: black;
   transform: scale(1.1);
   cursor: pointer;
@@ -307,12 +311,13 @@ body {
 .list-item:active {
   background: #0754a7;
   color: white;
+  outline: none;
 }
 
 .right-container__buttons {
   display: flex;
   justify-content: space-around;
-  margin-top: 25px;
+  margin-top: 2rem;
 }
 
 .left-button,
@@ -325,10 +330,11 @@ body {
   cursor: pointer;
   display: flex;
   font-weight: bold;
-  height: 30px;
+  height: 1.9rem;
   justify-content: center;
   text-transform: uppercase;
-  width: 100px;
+  width: 5.9rem;
+  outline: none;
 }
 
 .left-button:hover,
